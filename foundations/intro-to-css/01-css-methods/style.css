@@ -1,0 +1,8 @@
+/*For all divs:*/
+div {
+    background-color: red; /*Make the background red*/
+    color: white; /*Make the text white*/
+    font-size: 32px; /*Make the font 32px high*/
+    font-weight: 700; /*Make the font bolded (700)*/
+    text-align: center; /*Center the text*/
+}
