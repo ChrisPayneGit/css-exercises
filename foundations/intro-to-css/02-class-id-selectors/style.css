@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+/***COMPLETED 4/22/2026 by Christopher Payne***/
+/***All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
+* **The second element**: blue text and a font size of 36px
+* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
+* **The fourth element**: a light green background, a font size of 24px, and bold*/
+p {
+    background-color: #FFC0CB; /*Make the background pink*/
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#id2 {
+    color: #0000ff; /*Make the second element's text blue*/
+    font-size: 36px; /*Make the font 36px high*/
+}
+
+.class2 {
+    font-size: 24px;
+}
+
+#id4 {
+    background-color: #c0ffcb; /*Make bkg color light green*/
+    font-size: 24px; /*Make the font 24px high*/
+    font-weight: 700; /*Make the font bolded (700)*/
+}
